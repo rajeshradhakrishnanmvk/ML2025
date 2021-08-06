@@ -1,0 +1,27 @@
+/* .wrapper {
+    text-align: center;
+}
+
+.button {
+    position: absolute;
+    top: 50%;
+} */
+
+table { width: 70%; }
+table, th, td { border: solid 1px #DDD;
+    border-collapse: collapse; padding: 2px 3px; text-align: center;
+}
+
+#myProgress {
+    width: 100%;
+    background-color: #ddd;
+  }
+  
+  #myBar {
+    width: 10%;
+    height: 30px;
+    background-color: #04AA6D;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+  }

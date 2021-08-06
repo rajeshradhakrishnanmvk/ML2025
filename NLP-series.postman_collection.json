@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "f91f0c56-15c7-4dc9-9f88-971a2b78520a",
+		"name": "NLP-series",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Productionalize-HuggingFace-Model.01",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"text\": [\r\n        \"Sunday is a holiday\",\r\n        \"Photo is black and white\",\r\n        \"I hate you\"\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://huggingface-raj.herokuapp.com/api/get-classify",
+					"protocol": "https",
+					"host": [
+						"huggingface-raj",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"get-classify"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

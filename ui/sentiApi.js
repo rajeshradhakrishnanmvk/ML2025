@@ -1,0 +1,1 @@
+const sentimentsURL = 'https://huggingface-raj.herokuapp.com/api/get-classify'
